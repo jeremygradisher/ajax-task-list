@@ -36,6 +36,11 @@ gem 'twitter-bootstrap-rails'
 #for testing
 gem 'sql_queries_count'
 
+gem "responders"
+
+gem 'momentjs-rails', '~> 2.5.0'
+gem 'bootstrap3-datetimepicker-rails', '~> 3.0.0.1'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
